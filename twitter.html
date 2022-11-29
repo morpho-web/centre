@@ -22,6 +22,13 @@
       href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css"
     />
     <link rel="icon" href="eduford_img/center.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <section class="header">
@@ -88,7 +95,7 @@
 
       <div class="row">
         <div class="course-col">
-          <h3>Intermediate</h3>
+          <h3>anglais</h3>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto
             animi repudiandae ratione enim hic reiciendis eius. Nemo a ipsa
@@ -98,7 +105,7 @@
         </div>
 
         <div class="course-col">
-          <h3>Degree</h3>
+          <h3>français</h3>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto
             animi repudiandae ratione enim hic reiciendis eius. Nemo a ipsa
@@ -108,7 +115,7 @@
         </div>
 
         <div class="course-col">
-          <h3>Post Graduation</h3>
+          <h3>DEUTCH</h3>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto
             animi repudiandae ratione enim hic reiciendis eius. Nemo a ipsa
@@ -154,7 +161,7 @@
       <div class="row">
         <div class="classa">
           <img src="eduford_img\basketball.png" />
-          <h4>World class library</h4>
+          <h4>World class</h4>
           <p>
             Lorem ipsum dolor si laboriosam iure assumenda cumque eveniet eos
             explicabo doloribus qui aspernatur autem tempore!
@@ -163,7 +170,7 @@
 
         <div class="classa">
           <img src="eduford_img\library.png" />
-          <h4>Largest playstation</h4>
+          <h4>anglais</h4>
           <p>
             Lorem ipsum dolor sit Offici error repellendus laboriosam iure
             assumenda cumque eveniet eos explicabo doloribus qui aspernatur
@@ -173,7 +180,7 @@
 
         <div class="classa">
           <img src="eduford_img\cafeteria.png" />
-          <h4>Tasty and healthy Food</h4>
+          <h4>Tasty proff</h4>
           <p>
             Lorem ipsum dolor sit Officia repellendus laboriosam iure assumenda
             cumque eveniet eos explicabo doloribus qui aspernatur autem tempore!
@@ -223,14 +230,20 @@
 
     <!---------- footer ---------->
     <section class="footer">
-      <h4>About us</h4>
-      <p>
+      <!-- <h4>About us</h4> -->
+      <!-- <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit voluptas,
         nam sint molestias ipsum vel nisi. Impedit excepturi blanditiis,<br />
         obcaecati dolorem repud iandae pariatur consectetur ducimus officia
         voluptate id ipsam totam.
-      </p>
-      <span>&copy;JUNIOR</span>
+      </p> -->
+      <span class="junior">&copy;JUNIOR</span>
+      <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-square-whatsapp"></i>
+        <i class="fa-brands fa-square-instagram"></i>
+      </div>
     </section>
 
     <!-- JAVASCRIPT FOR TAGL MENU  -->
@@ -239,10 +252,12 @@
 
       function showMenu() {
         navLinks.style.right = "0";
+        navLinks.style.display = "block";
       }
 
       function hideMenu() {
         navLinks.style.right = "-300px";
+        navLinks.style.display = "none";
       }
     </script>
   </body>

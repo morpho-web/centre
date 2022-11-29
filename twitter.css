@@ -124,6 +124,8 @@ nav svg {
   }
   .nav-links {
     padding: 0px 30px 30px 30px;
+    display: none;
+    transition: 2s;
   }
 }
 /* =-------------course------------*/
@@ -301,16 +303,21 @@ h1 {
 /*<!---------- footer ----------> */
 .footer {
   text-align: center;
-  margin-bottom: 5%;
   width: 100%;
-  padding: 30px 0;
+  padding: 20px 0;
+  background: #0e0e0e;
 }
 .footer h4 {
-  margin-bottom: 25px;
-  margin-top: 20px;
+  color: white;
+  margin-bottom: 12px;
+  margin-top: -5px;
   font-weight: 600;
+  font-size: 20px;
 }
-
+.footer p {
+  color: #adabab;
+  margin-bottom: 10px;
+}
 /* about us */
 .sub-header {
   height: 50vh;
@@ -337,13 +344,14 @@ h1 {
 }
 .about-col {
   flex-basis: 48%;
-  padding: 30px 2px;
+  padding: 10px 2px;
 }
 .about-col h1 {
   padding-top: 0;
 }
 .about-col p {
   padding-top: 15px 0 40px px;
+  font-family: monospace;
 }
 .red {
   border: 1px solid #f44336;
@@ -353,4 +361,30 @@ h1 {
 }
 .red:hover {
   color: #fff;
+}
+.junior {
+  color: white;
+  font-family: system-ui;
+}
+.fa-facebook {
+  color: #1877f2;
+}
+.fa-twitter {
+  color: #1da1f2;
+}
+.fa-square-whatsapp {
+  color: #128c7e;
+}
+.fa-square-instagram {
+  color: #c13584;
+}
+.footer .icons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 14px;
+}
+.icons i {
+  font-size: 25px;
+  cursor: pointer;
 }

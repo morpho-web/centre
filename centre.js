@@ -26,21 +26,21 @@ window.addEventListener("scroll", (e) => {
       });
     }
   } else if (media.matches) {
-    if (window.scrollY > 1100 && window.scrollY <= 1600) {
+    if (window.scrollY > 1700 && window.scrollY <= 2260) {
       lay1.classList.add("laybg");
       h1.classList.add("hbg");
     } else {
       lay1.classList.remove("laybg");
       h1.classList.remove("hbg");
     }
-    if (window.scrollY > 1650 && window.scrollY <= 2077) {
+    if (window.scrollY > 2260 && window.scrollY <= 2730) {
       lay2.classList.add("laybg");
       h2.classList.add("hbg");
     } else {
       lay2.classList.remove("laybg");
       h2.classList.remove("hbg");
     }
-    if (window.scrollY > 2150 && window.scrollY <= 2650) {
+    if (window.scrollY > 2730 && window.scrollY <= 3230) {
       lay3.classList.add("laybg");
       h3.classList.add("hbg");
     } else {
